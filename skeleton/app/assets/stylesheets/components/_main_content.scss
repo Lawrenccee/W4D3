@@ -1,0 +1,70 @@
+.main-content input {
+  resize: none;
+  flex: 1;
+  color: $gray;
+  border: 1px solid $gray;
+  border-right: none;
+}
+
+.sub-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-content {
+  border-top: 1px solid $light-gray;
+}
+
+.subscribe {
+  display: inline-block;
+}
+
+.center {
+  text-align: center;
+}
+
+.main-content li {
+  list-style-type: disc;
+  margin: 10px;
+}
+
+.main-content aside {
+  color: $gray;
+  margin: 5px;
+}
+
+.main-content p {
+  line-height: 16px;
+}
+
+.subtitle {
+  text-transform: uppercase;
+}
+
+.main-content a {
+  color: $blue;
+}
+
+.main-content a:hover {
+  text-decoration: underline;
+  text-decoration-color: $blue;
+  cursor: pointer;
+}
+
+.main-content hr {
+  margin-top: 20px;
+}
+
+.main-content div > p {
+  margin-top: 10px;
+  color: $gray;
+  font-size: 10px;
+  text-align: center;
+}
+
+.main-content img {
+  border-radius: 4px;
+  padding: 5px;
+  width: 100%;
+  height: auto;
+}

@@ -1,0 +1,44 @@
+
+.col {
+  margin-top: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.col-1-3 {
+  float: left;
+  width: 33%;
+}
+
+.col-1-2 {
+  float: left;
+  width: 50%;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+
+.col-vid {
+  width: 100%;
+  padding-right: 10px;
+}
+
+.col-1-3, .col-vid {
+  padding-right: 30px;
+  box-sizing: border-box;
+}
+
+/* Attribute selector targeting all elements
+with a class attribute containing 'col-' */
+[class*='col-'] {
+  // ...
+}
+
+[class*='col-']:last-of-type {
+  // ...
+}
+
+@media all and (max-width: 1000px) {
+  [class*='col-'] {
+    width: 100%
+  }
+}
